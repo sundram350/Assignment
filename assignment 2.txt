@@ -1,0 +1,111 @@
+Ans=1  
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d ",n%10);
+    return 0;
+}
+
+Ans=2 
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d ",n/10);
+    return 0;
+}
+
+Ans=3 
+int main()
+{
+    int n,m,swap;
+    printf("Enter two Number to Swap");
+    scanf("%d%d",&n,&m);
+    swap=n;
+    n=m;
+    m=swap;
+    printf("%d %d",n,m);
+    return 0;
+}
+
+Ans=4 
+int main()
+{
+    int n,m,swap;
+    printf("Enter two Number to Swap");
+    scanf("%d%d",&n,&m);
+    n+=m;
+    m=n-m;
+    n=n-m;
+    printf("%d %d",n,m);
+    return 0;
+}
+
+Ans=5
+int main()
+{
+    int n,sum=0;
+    printf("Enter two Number to Swap");
+    scanf("%d",&n);
+    sum+=n%10;
+    n/=10;
+    sum+=n%10;
+    n/=10;
+    sum+=n;
+    printf("%d ",sum);
+    return 0;
+}
+
+Ans=6
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    printf("%d ",a);
+    return 0;
+}
+
+Ans=7
+Ans=8
+
+Ans=9
+int main()
+{
+    int n;
+    char m;
+    float j;
+    double k;
+    printf("Size of char %d\nSize of int %d\nSize of float %d\nSize of double %d",sizeof(m),sizeof(n),sizeof(j),sizeof(k));
+    return 0;
+}
+
+Ans=10
+int main()
+{
+    int x=2345,sum,n;
+    n=x/10;
+    sum=n*10;
+    printf("%d ",sum);
+    return ;
+}
+
+Ans=11
+int main()
+{
+    int n,append,x=234;
+    printf("Enter a digit\n");
+    scanf("%d",&n);
+    append=(x*10)+n;
+    printf("%d ",append);
+	return 0;
+}
+
+Ans=12
+int main()
+{
+    float money,currency_rate=76.23,result;
+    scanf("%f",&money);
+    result=money/currency_rate;
+    printf("%f",result);
+}
